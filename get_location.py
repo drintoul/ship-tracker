@@ -80,7 +80,7 @@ for ship in ships:
 
         modified = parse_timestamp(reported, now)
 
-        print (f"{vessel} reported {reported} ago en route to {destination}")
+        print (f"{vessel} reported being at ({latitude}, {longitude}) {reported} ago en route to {destination}")
 
         data = {
             'vessel': vessel, 'location': location, 'latitude': latitude, 'longitude': longitude,
