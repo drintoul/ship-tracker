@@ -16,7 +16,7 @@ Ship is in blue, hurricane in orange
 
 # Sample Output
 
-data = 
+data =
 {'vessel': 'ms The World',  
  'location': 'North West Atlantic Ocean',  
  'latitude': '47.56908',  
