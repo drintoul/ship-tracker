@@ -70,9 +70,9 @@ def parse_timestamp(reported, now):
 ### Output time of query for logging
 print (datetime.now())
 
-for url in urls:
+for ship in ships:
 
-    data = read_page(url)
+    data = read_page(ship)
 
     try:
 
@@ -87,8 +87,8 @@ for url in urls:
             'destination': destination, 'modified_gmt': modified
         }
 
-        df = pd.DataFrame().from_records([data])
-
+### Write to MySQL database disabled
+#        df = pd.DataFrame().from_records([data])
 #        df_to_table(df, 'geography', 'cruiseship_locations', 'append')
 
     except Exception as e:
