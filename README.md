@@ -8,7 +8,7 @@ This project was initiated to track a friend's cruise itinerary relative to a ne
 Ship is in blue, hurricane in orange
 
 # Solution Approach
-* This Python program uses the request library to retrieve a ship's location at one hour intervals from a public website
+* This Python program uses the request library to retrieve a ship's location from a public website
 * Note that Hurricane location is retrieved from a different website
 * BeautifulSoup and Regex are used to extract GPS coordinates and other information
 * Actual reporting time is calculated using relative references such as "... reported 43 minutes ago"
