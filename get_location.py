@@ -10,7 +10,7 @@ import time
 # from mysql_functions import df_to_table
 
 ### Ships to track
-base_url = 'https://www.cruisemapper.com/'
+base_url = 'https://www.cruisemapper.com/ships/'
 
 ships = ['National-Geographic-Explorer-873',
          'National-Geographic-Orion-875',
