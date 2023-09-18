@@ -1,5 +1,5 @@
 # ship-tracker
-Track cruise ship GPS locations as reported
+Track cruise ship GPS locations as reported.
 
 This project was initiated to track a friend's cruise itinerary relative to a nearby hurricane.
 
@@ -7,6 +7,8 @@ This project was initiated to track a friend's cruise itinerary relative to a ne
 
 Ship is in blue, hurricane in orange.
 
-This python program uses the request library to retrieve a ship's location at one hour intervals. It calculates the actual reporting time using relative references such as "... reported 43 minutes ago". BeautifulSoup and Regex are used to extract desired GPS coordinates and other information.
-
-For my personal use, I write this information to my MySQL database but this functionality is disabled for GitHub.
+# Solution Approach
+* This Python program uses the request library to retrieve a ship's location at one hour intervals from a public website
+* BeautifulSoup and Regex are used to extract desired GPS coordinates and other information
+* Actual reporting time using relative references such as "... reported 43 minutes ago"
+* For my personal use, I write this information to my MySQL database but this functionality is disabled for GitHub
