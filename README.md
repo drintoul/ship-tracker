@@ -16,10 +16,9 @@ Ship is in blue, hurricane in orange
 
 # Sample Output
 
-data =
 {'vessel': 'ms The World',  
- 'location': 'North West Atlantic Ocean',  
- 'latitude': '47.56908',  
- 'longitude': '-52.69381',  
- 'destination': 'Sydney NS',  
- 'modified_gmt': datetime.datetime(2023, 9, 18, 14, 39, 22, 134084)}
+ &nbsp;'location': 'North West Atlantic Ocean',  
+ &nbsp;'latitude': '47.56908',  
+ &nbsp;'longitude': '-52.69381',  
+ &nbsp;'destination': 'Sydney NS',  
+ &nbsp;'modified_gmt': datetime.datetime(2023, 9, 18, 14, 39, 22, 134084)}
