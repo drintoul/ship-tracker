@@ -15,7 +15,6 @@ Ship is in blue, hurricane in orange
 * For my personal use, I write this information to my local MySQL database but this functionality is disabled for GitHub
 
 # Sample Output
-
 {'vessel': 'ms The World',  
  &nbsp;'location': 'North West Atlantic Ocean',  
  &nbsp;'latitude': '47.56908',  
