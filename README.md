@@ -13,3 +13,12 @@ Ship is in blue, hurricane in orange
 * BeautifulSoup and Regex are used to extract GPS coordinates and other information
 * Actual reporting time is calculated using relative references such as "... reported 43 minutes ago"
 * For my personal use, I write this information to my local MySQL database but this functionality is disabled for GitHub
+
+# Sample Output
+
+data = {'vessel': 'ms The World',
+ 'location': 'North West Atlantic Ocean',
+ 'latitude': '47.56908',
+ 'longitude': '-52.69381',
+ 'destination': 'Sydney NS',
+ 'modified_gmt': datetime.datetime(2023, 9, 18, 14, 39, 22, 134084)}
